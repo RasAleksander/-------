@@ -1,0 +1,698 @@
+@import url("fonts/GothamPro/stylesheet.css");
+@import url("fonts/IsidoraSoft/stylesheet.css");
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Gotham Pro";
+    margin: 0;
+ }
+
+.background__image {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 940px;
+    display: flex;
+    position: absolute;
+    background-image: url(img/Background.png);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.central-block {
+    width: 25%;
+    height: 75%;
+    min-width: 264px;
+    min-height: 324px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(238, 255, 247, 0.89);
+    border-radius: 8%;
+}
+
+.wrapper {
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.central-block__name {
+    width: 100%;
+    font-weight: 700;
+    font-size: 35.8776px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.central-block__date {
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 20px;
+    margin: 16px 0;
+}
+
+.central-block__slogan {
+    font-family: "Isidora Soft";
+    color: #815BFE;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 55.1962px;
+    line-height: 91.46%;
+}
+
+.checkbox-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 4%;
+    width: 92%;
+    height: 15%;
+    background-color: #8E6EFC;
+    border-radius: 20px;
+    margin: 16px 0;
+}
+
+
+.checkbox {
+    background: #C4C4C4;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+}
+
+.checkbox-block__text {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    color: white;
+}
+
+.checkbox-block__text_top{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-weight: 400;
+    font-size: 21.1586px;
+    line-height: 20px;
+}
+
+.checkbox-block__text_bottom{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 25px;  
+}
+
+.central-block__counter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.central-block__counter_left {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.central-block__counter_cif {
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.central_block__counter_right {
+    width: 124px;
+    height: 42px;       
+    background: #8E6EFC;
+    color: white;
+    font-weight: 400;
+    font-size: 21.1586px;
+    line-height: 20px;
+    border: none;
+    box-shadow: 0 3px 0 #724DEC;
+    padding: 2%;
+    border-radius: 32px;
+}
+
+.central_block__counter_right:hover {
+    background: #EF8CEF;
+    box-shadow: 0 3px 0 #C653CF;
+    cursor: pointer;
+
+}
+.counter__button {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.counter__button:hover {
+    cursor: pointer;
+}
+
+.central-block__total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.central-block__total_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+    align-items: flex-end;
+}
+
+.central-block__total_text {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 3px;
+}
+
+.central-block__total_cif {
+    font-size: 26px;
+    font-weight: 900;
+    color: #724DEC;
+    margin-left: 11px;
+}
+
+.central-block__bot {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 16.5589px;
+    line-height: 16px;
+}
+
+.central-block__decimal {
+    width: 123px;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16.5589px;
+    line-height: 16px;
+    margin: 5px;
+}
+
+@media (max-width:1730px) {
+    .central-block {
+        width: 25%;
+    }
+    
+    .wrapper {
+        width: 85%;
+    }
+    .central-block__name {
+        font-size: 33px;
+    }
+
+    .central-block__date {
+        font-size: 21px;
+        margin: 16.5px;
+    }
+    
+    .central-block__slogan {
+        font-size: 54px;
+    }
+
+    .checkbox-block {
+        width: 93%;
+        height: 15%;
+    }
+
+    .checkbox {
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+    }
+
+    .checkbox-block__text_top {
+        font-size: 24px;
+    }
+
+    .checkbox-block__text_bottom {
+        font-size: 27px;
+    }
+
+    .central_block__counter_right {
+        width: 125px;
+        height: 45px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .central-block__total_text {
+        font-size: 20px;
+    }
+
+    .central-block__total_cif {
+        font-size: 23px;
+    }
+
+
+    .central-block__decimal {
+        font-size: 16px;
+        margin-top: 5px;
+        width: 125px;
+    }
+}
+
+@media (max-width:1600px) { 
+    .central-block {
+        width: 25%;
+    }
+    
+    .wrapper {
+        width: 85%;
+    }
+    .central-block__name {
+        font-size: 24.5px;
+    }
+
+    .central-block__date {
+        font-size: 19px;
+        margin: 12px;
+    }
+    
+    .central-block__slogan {
+        font-size: 42px;
+    }
+
+    .checkbox-block {
+        width: 93%;
+        height: 15%;
+    }
+
+    .checkbox {
+        width: 55px;
+        height: 55px;
+        border-radius: 11.5px;
+    }
+
+    .checkbox-block__text_top {
+        font-size: 15px;
+    }
+
+    .checkbox-block__text_bottom {
+        font-size: 19px;
+    }
+
+    .central_block__counter_right {
+        width: 105px;
+        height: 38px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .central-block__total_text {
+        font-size: 15px;
+    }
+
+    .central-block__total_cif {
+        font-size: 18px;
+    }
+
+    .central-block__decimal {
+        font-size: 13px;
+        width: 105px;
+    }
+}
+
+@media (max-width:1200px) {
+    .central-block {
+        width: 35%;
+    }
+    
+    .wrapper {
+        width: 95%;
+    }
+    .central-block__name {
+        font-size: 27.5px;
+    }
+
+    .central-block__date {
+        font-size: 18px;
+        margin: 13px;
+    }
+    
+    .central-block__slogan {
+        font-size: 48px;
+    }
+
+    .checkbox-block {
+        width: 93%;
+        height: 15%;
+    }
+
+    .checkbox {
+        width: 55px;
+        height: 55px;
+        border-radius: 11.5px;
+    }
+
+    .checkbox-block__text_top {
+        font-size: 20px;
+    }
+
+    .checkbox-block__text_bottom {
+        font-size: 24px;
+    }
+
+    .central_block__counter_right {
+        width: 125px;
+        height: 45px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .central-block__total_text {
+        font-size: 19px;
+    }
+
+    .central-block__total_cif {
+        font-size: 23px;
+    }
+
+    .central-block__decimal {
+        font-size: 16px;
+        margin-top: 5px;
+        width: 125px;
+    }
+}
+
+@media (max-width:992px) {
+    .central-block {
+        width: 48%;
+    }
+    
+    .wrapper {
+        width: 95%;
+    }
+    .central-block__name {
+        font-size: 30px;
+    }
+
+    .central-block__date {
+        font-size: 25px;
+        margin: 16px;
+    }
+    
+    .central-block__slogan {
+        font-size: 42px;
+    }
+
+    .checkbox-block {
+        width: 93%;
+        height: 15%;
+    }
+
+    .checkbox {
+        width: 48px;
+        height: 48px;
+        border-radius: 11px;
+    }
+
+    .checkbox-block__text_top {
+        font-size: 22px;
+    }
+
+    .checkbox-block__text_bottom {
+        font-size: 25px;
+    }
+
+    .counter__button {
+        width: 25px;
+        height: 25px;
+    }
+
+    .central-block__counter_cif {
+        font-size: 25px;
+    }
+
+    .central_block__counter_right {
+        width: 105px;
+        height: 35px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .central-block__total_text {
+        font-size: 20px;
+    }
+
+    .central-block__total_cif {
+        font-size: 24px;
+    }
+
+    .central-block__decimal {
+        font-size: 16px;
+        margin-top: 5px;
+        width: 105px;
+    }
+}
+
+@media (max-width:768px) {
+    .central-block {
+        width: 50%;
+    }
+    
+    .wrapper {
+        width: 95%;
+    }
+    .central-block__name {
+        font-size: 25px;
+    }
+
+    .central-block__date {
+        font-size: 20px;
+        margin: 14px;
+    }
+    
+    .central-block__slogan {
+        font-size: 38px;
+    }
+
+    .checkbox-block {
+        width: 93%;
+        height: 15%;
+    }
+
+    .checkbox {
+        width: 44px;
+        height: 44px;
+        border-radius: 10px;
+    }
+
+    .checkbox-block__text_top {
+        font-size: 19px;
+    }
+
+    .checkbox-block__text_bottom {
+        font-size: 22px;
+    }
+
+    .counter__button {
+        width: 22px;
+        height: 22px;
+    }
+
+    .central-block__counter_cif {
+        font-size: 22px;
+    }
+
+    .central_block__counter_right {
+        width: 90px;
+        height: 28px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .central-block__total_text {
+        font-size: 16px;
+    }
+
+    .central-block__total_cif {
+        font-size: 22px;
+    }
+
+    .central-block__decimal {
+        font-size: 16px;
+        margin-top: 5px;
+        width: 90px;
+    }
+}
+
+@media (max-width:576px) {
+    .central-block {
+        width: 50%;
+    }
+    
+    .wrapper {
+        width: 95%;
+    }
+    .central-block__name {
+        font-size: 20px;
+    }
+
+    .central-block__date {
+        font-size: 17px;
+        margin: 12.5px;
+    }
+    
+    .central-block__slogan {
+        font-size: 32px;
+    }
+
+    .checkbox-block {
+        width: 93%;
+        height: 15%;
+    }
+
+    .checkbox {
+        width: 40px;
+        height: 40px;
+        border-radius: 9px;
+    }
+
+    .checkbox-block__text_top {
+        font-size: 15px;
+    }
+
+    .checkbox-block__text_bottom {
+        font-size: 18px;
+    }
+
+    .counter__button {
+        width: 20px;
+        height: 20px;
+    }
+
+    .central-block__counter_cif {
+        font-size: 19px;
+    }
+
+    .central_block__counter_right {
+        width: 75px;
+        height: 25px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .central-block__total_text {
+        font-size: 13px;
+    }
+
+    .central-block__total_cif {
+        font-size: 18px;
+    }
+
+    .central-block__decimal {
+        font-size: 12px;
+        margin-top: 5px;
+        width: 75px;
+    }
+}
+
+@media (max-width:320px) {
+    .central-block {
+        width: 80%;
+    }
+    
+    .wrapper {
+        width: 185px;
+    }
+    .central-block__name {
+        font-size: 17.0432px;
+        line-height: 16px;
+        letter-spacing: -0.05em;
+    }
+
+    .central-block__date {
+        font-size: 15px;
+        line-height: 14px;
+        margin: 10px;
+    }
+    
+    .central-block__slogan {
+        font-size: 26px;
+    }
+
+    .checkbox-block {
+        width: 183px;
+        height: 57px;
+    }
+
+    .checkbox {
+        width: 30px;
+        height: 30px;
+        border-radius: 7px;
+    }
+
+    .checkbox-block__text_top {
+        font-size: 10px;
+    }
+
+    .checkbox-block__text_bottom {
+        font-size: 12px;
+    }
+
+    .counter__button {
+        width: 15px;
+        height: 15px;
+    }
+
+    .central-block__counter_cif {
+        font-size: 15px;
+    }
+
+    .central_block__counter_right {
+        width: 59px;
+        height: 20px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .central-block__total_text {
+        font-size: 10px;
+    }
+
+    .central-block__total_cif {
+        font-size: 12.5px;
+    }
+
+    .central-block__decimal {
+        font-size: 10px;
+        width: 59px;
+    }
+}
+  

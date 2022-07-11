@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'Isidora Soft Alt It';
+    src: url('IsidoraSoftAlt-RegularIt.eot');
+    src: local('Isidora Soft Alt Regular It'), local('IsidoraSoftAlt-RegularIt'),
+        url('IsidoraSoftAlt-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-RegularIt.woff2') format('woff2'),
+        url('IsidoraSoftAlt-RegularIt.woff') format('woff'),
+        url('IsidoraSoftAlt-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt Light It';
+    src: url('IsidoraSoftAlt-LightIt.eot');
+    src: local('Isidora Soft Alt Light It'), local('IsidoraSoftAlt-LightIt'),
+        url('IsidoraSoftAlt-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-LightIt.woff2') format('woff2'),
+        url('IsidoraSoftAlt-LightIt.woff') format('woff'),
+        url('IsidoraSoftAlt-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt';
+    src: url('IsidoraSoftAlt-Black.eot');
+    src: local('Isidora Soft Alt Black'), local('IsidoraSoftAlt-Black'),
+        url('IsidoraSoftAlt-Black.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-Black.woff2') format('woff2'),
+        url('IsidoraSoftAlt-Black.woff') format('woff'),
+        url('IsidoraSoftAlt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt Medium It';
+    src: url('IsidoraSoftAlt-MediumIt.eot');
+    src: local('Isidora Soft Alt Medium It'), local('IsidoraSoftAlt-MediumIt'),
+        url('IsidoraSoftAlt-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-MediumIt.woff2') format('woff2'),
+        url('IsidoraSoftAlt-MediumIt.woff') format('woff'),
+        url('IsidoraSoftAlt-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt';
+    src: url('IsidoraSoftAlt-Bold.eot');
+    src: local('Isidora Soft Alt Bold'), local('IsidoraSoftAlt-Bold'),
+        url('IsidoraSoftAlt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-Bold.woff2') format('woff2'),
+        url('IsidoraSoftAlt-Bold.woff') format('woff'),
+        url('IsidoraSoftAlt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt Bold It';
+    src: url('IsidoraSoftAlt-BoldIt.eot');
+    src: local('Isidora Soft Alt Bold It'), local('IsidoraSoftAlt-BoldIt'),
+        url('IsidoraSoftAlt-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-BoldIt.woff2') format('woff2'),
+        url('IsidoraSoftAlt-BoldIt.woff') format('woff'),
+        url('IsidoraSoftAlt-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt';
+    src: url('IsidoraSoftAlt-Regular.eot');
+    src: local('Isidora Soft Alt Regular'), local('IsidoraSoftAlt-Regular'),
+        url('IsidoraSoftAlt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-Regular.woff2') format('woff2'),
+        url('IsidoraSoftAlt-Regular.woff') format('woff'),
+        url('IsidoraSoftAlt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt Black It';
+    src: url('IsidoraSoftAlt-BlackIt.eot');
+    src: local('Isidora Soft Alt Black It'), local('IsidoraSoftAlt-BlackIt'),
+        url('IsidoraSoftAlt-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-BlackIt.woff2') format('woff2'),
+        url('IsidoraSoftAlt-BlackIt.woff') format('woff'),
+        url('IsidoraSoftAlt-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt';
+    src: url('IsidoraSoftAlt-Medium.eot');
+    src: local('Isidora Soft Alt Medium'), local('IsidoraSoftAlt-Medium'),
+        url('IsidoraSoftAlt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-Medium.woff2') format('woff2'),
+        url('IsidoraSoftAlt-Medium.woff') format('woff'),
+        url('IsidoraSoftAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt';
+    src: url('IsidoraSoftAlt-Light.eot');
+    src: local('Isidora Soft Alt Light'), local('IsidoraSoftAlt-Light'),
+        url('IsidoraSoftAlt-Light.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-Light.woff2') format('woff2'),
+        url('IsidoraSoftAlt-Light.woff') format('woff'),
+        url('IsidoraSoftAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft';
+    src: url('IsidoraSoft-Regular.eot');
+    src: local('Isidora Soft Regular'), local('IsidoraSoft-Regular'),
+        url('IsidoraSoft-Regular.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-Regular.woff2') format('woff2'),
+        url('IsidoraSoft-Regular.woff') format('woff'),
+        url('IsidoraSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt SemiBold It';
+    src: url('IsidoraSoftAlt-SemiBoldIt.eot');
+    src: local('Isidora Soft Alt SemiBold It'), local('IsidoraSoftAlt-SemiBoldIt'),
+        url('IsidoraSoftAlt-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-SemiBoldIt.woff2') format('woff2'),
+        url('IsidoraSoftAlt-SemiBoldIt.woff') format('woff'),
+        url('IsidoraSoftAlt-SemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Bold It';
+    src: url('IsidoraSoft-BoldIt.eot');
+    src: local('Isidora Soft Bold It'), local('IsidoraSoft-BoldIt'),
+        url('IsidoraSoft-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-BoldIt.woff2') format('woff2'),
+        url('IsidoraSoft-BoldIt.woff') format('woff'),
+        url('IsidoraSoft-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt Thin It';
+    src: url('IsidoraSoftAlt-ThinIt.eot');
+    src: local('Isidora Soft Alt Thin It'), local('IsidoraSoftAlt-ThinIt'),
+        url('IsidoraSoftAlt-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-ThinIt.woff2') format('woff2'),
+        url('IsidoraSoftAlt-ThinIt.woff') format('woff'),
+        url('IsidoraSoftAlt-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt';
+    src: url('IsidoraSoftAlt-SemiBold.eot');
+    src: local('Isidora Soft Alt SemiBold'), local('IsidoraSoftAlt-SemiBold'),
+        url('IsidoraSoftAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-SemiBold.woff2') format('woff2'),
+        url('IsidoraSoftAlt-SemiBold.woff') format('woff'),
+        url('IsidoraSoftAlt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft';
+    src: url('IsidoraSoft-SemiBold.eot');
+    src: local('Isidora Soft SemiBold'), local('IsidoraSoft-SemiBold'),
+        url('IsidoraSoft-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-SemiBold.woff2') format('woff2'),
+        url('IsidoraSoft-SemiBold.woff') format('woff'),
+        url('IsidoraSoft-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Medium It';
+    src: url('IsidoraSoft-MediumIt.eot');
+    src: local('Isidora Soft Medium It'), local('IsidoraSoft-MediumIt'),
+        url('IsidoraSoft-MediumIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-MediumIt.woff2') format('woff2'),
+        url('IsidoraSoft-MediumIt.woff') format('woff'),
+        url('IsidoraSoft-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft';
+    src: url('IsidoraSoft-Black.eot');
+    src: local('Isidora Soft Black'), local('IsidoraSoft-Black'),
+        url('IsidoraSoft-Black.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-Black.woff2') format('woff2'),
+        url('IsidoraSoft-Black.woff') format('woff'),
+        url('IsidoraSoft-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft SemiBold It';
+    src: url('IsidoraSoft-SemiBoldIt.eot');
+    src: local('Isidora Soft SemiBold It'), local('IsidoraSoft-SemiBoldIt'),
+        url('IsidoraSoft-SemiBoldIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-SemiBoldIt.woff2') format('woff2'),
+        url('IsidoraSoft-SemiBoldIt.woff') format('woff'),
+        url('IsidoraSoft-SemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Black It';
+    src: url('IsidoraSoft-BlackIt.eot');
+    src: local('Isidora Soft Black It'), local('IsidoraSoft-BlackIt'),
+        url('IsidoraSoft-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-BlackIt.woff2') format('woff2'),
+        url('IsidoraSoft-BlackIt.woff') format('woff'),
+        url('IsidoraSoft-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft';
+    src: url('IsidoraSoft-Thin.eot');
+    src: local('Isidora Soft Thin'), local('IsidoraSoft-Thin'),
+        url('IsidoraSoft-Thin.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-Thin.woff2') format('woff2'),
+        url('IsidoraSoft-Thin.woff') format('woff'),
+        url('IsidoraSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Thin It';
+    src: url('IsidoraSoft-ThinIt.eot');
+    src: local('Isidora Soft Thin It'), local('IsidoraSoft-ThinIt'),
+        url('IsidoraSoft-ThinIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-ThinIt.woff2') format('woff2'),
+        url('IsidoraSoft-ThinIt.woff') format('woff'),
+        url('IsidoraSoft-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft';
+    src: url('IsidoraSoft-Light.eot');
+    src: local('Isidora Soft Light'), local('IsidoraSoft-Light'),
+        url('IsidoraSoft-Light.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-Light.woff2') format('woff2'),
+        url('IsidoraSoft-Light.woff') format('woff'),
+        url('IsidoraSoft-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Alt';
+    src: url('IsidoraSoftAlt-Thin.eot');
+    src: local('Isidora Soft Alt Thin'), local('IsidoraSoftAlt-Thin'),
+        url('IsidoraSoftAlt-Thin.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoftAlt-Thin.woff2') format('woff2'),
+        url('IsidoraSoftAlt-Thin.woff') format('woff'),
+        url('IsidoraSoftAlt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft Light It';
+    src: url('IsidoraSoft-LightIt.eot');
+    src: local('Isidora Soft Light It'), local('IsidoraSoft-LightIt'),
+        url('IsidoraSoft-LightIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-LightIt.woff2') format('woff2'),
+        url('IsidoraSoft-LightIt.woff') format('woff'),
+        url('IsidoraSoft-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft';
+    src: url('IsidoraSoft-Medium.eot');
+    src: local('Isidora Soft Medium'), local('IsidoraSoft-Medium'),
+        url('IsidoraSoft-Medium.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-Medium.woff2') format('woff2'),
+        url('IsidoraSoft-Medium.woff') format('woff'),
+        url('IsidoraSoft-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Isidora Soft It';
+    src: url('IsidoraSoft-RegularIt.eot');
+    src: local('Isidora Soft Regular It'), local('IsidoraSoft-RegularIt'),
+        url('IsidoraSoft-RegularIt.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-RegularIt.woff2') format('woff2'),
+        url('IsidoraSoft-RegularIt.woff') format('woff'),
+        url('IsidoraSoft-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Isidora Soft';
+    src: url('IsidoraSoft-Bold.eot');
+    src: local('Isidora Soft Bold'), local('IsidoraSoft-Bold'),
+        url('IsidoraSoft-Bold.eot?#iefix') format('embedded-opentype'),
+        url('IsidoraSoft-Bold.woff2') format('woff2'),
+        url('IsidoraSoft-Bold.woff') format('woff'),
+        url('IsidoraSoft-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

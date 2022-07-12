@@ -1,0 +1,201 @@
+@import url("fonts/GothamPro/stylesheet.css");
+@import url("fonts/IsidoraSoft/stylesheet.css");
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    letter-spacing: -0.05em ;
+    margin: 0;
+    color: #282829;
+}
+
+span {
+    font-weight: 900;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 940px;
+    min-width: 320px;
+    min-height: 480px;
+    display: flex;
+    position: absolute;
+    background-image: url(img/Background.png);
+    justify-content: center;
+    align-items: center;
+}
+
+.central-block {
+    width: 23%;
+    height: 70%;
+    padding: 1.5% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(238, 255, 247, 0.89);
+    border-radius: 5rem;
+}
+
+.central-wrapper {
+    width: 100%;
+    height: 90%;
+    padding: 0;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.central-name, .central-slogan, .central-date {
+    margin: 0;
+    height: 30%;
+}
+
+.central-name {
+    height: 20%;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.central-date {
+ height: 15%;
+}
+
+
+.central-slogan {
+    font-family: "Isidora Soft";
+    font-weight: 700;
+    color: #815BFE;
+    font-size: 3.5rem;
+}
+
+.checkbox-block {
+    width: 90%;
+    height: 35%;
+    padding: 0 5%;
+    flex-direction: row;
+    align-items: center;
+    background: #815BFE;
+    border-radius: 1.5rem;
+
+}
+
+.checkbox-block, .purple-button {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.checkbox-block-flag {
+    background: #C4C4C4;
+    width: 20%;
+    height: 70%;
+    border-radius: 0.9rem;
+}
+
+.checkbox-block-text {
+    text-align: right;
+}
+
+.button-container, .decimal{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.central-counter-cif {
+    margin: 0 10%;
+}
+
+.counter-container {
+    width: 25%;
+}
+
+.purple-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 70%;
+    background: #815BFE;
+    border: none;
+    box-shadow: 0 3px 0 #724DEC;
+    border-radius: 2rem;
+}
+
+.purple-button:hover {
+    background: #EF8CEF;
+    box-shadow: 0 3px 0 #C653CF;
+    cursor: pointer;
+}
+
+.total-text {
+    font-size: 1.5rem;
+}
+
+.total-text-violet {
+    color: #724DEC;
+    font-size: 1.9rem;
+}
+
+.wrapper-bottom {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.wrapper-bottom-decimal {
+    justify-content: center;
+    width: 35%;
+}
+
+@media (max-width:1400px) {
+    .central-block {
+        width: 27%;
+        border-radius: 3.8rem;
+    }
+    .central-name {
+        font-size: 1.4rem;
+    }
+    .central-slogan {
+        font-size: 2.5rem;
+    }
+    .checkbox-block, .purple-button {
+        font-size: 0.9rem;
+    }
+    .total-text {
+        font-size: 1rem;
+    }
+    .total-text-violet {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .central-block {
+        width: 32%;
+    }
+}
+
+@media (max-width: 768px) {
+    .central-block {
+        width: 42%;
+        border-radius: 3rem;
+    }
+
+    
+}
+
+@media (max-width: 576px) {
+    .central-block {
+        width: 75%;
+    }
+}
